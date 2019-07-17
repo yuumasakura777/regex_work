@@ -22,7 +22,11 @@
             </p>
             <!--コメント表示-->
               <p class="topic-text">
-                <%= topic.comment.content %>
+                <% topic.comments.each do |comment| %>
+                  <p class="topic-text">
+                    <%= comment.content %>
+                  </p>
+                <% end %>
               </p>
           </div>
         </div>
