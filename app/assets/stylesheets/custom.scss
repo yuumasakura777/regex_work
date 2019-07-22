@@ -135,7 +135,6 @@ h1, h2 {
       margin-bottom: 20px;
       width: 100%;
     }
-
     .topic-index-icon {
       width: 35px;
       height: 30px;
@@ -146,6 +145,23 @@ h1, h2 {
 
 .comments-new-wrapper{
   padding-top:150px;
+}
+
+
+.color-gray{
+  background-color:gray;
+  display: inline-block;
+}
+
+.color-red{
+  background-color:red;
+  display: inline-block;
+}
+
+
+.opacity{
+  opacity:0.5;
+  
 }
 
 
